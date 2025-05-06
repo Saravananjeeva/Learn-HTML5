@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image,List,Table</title>
+</head>
+<body>
+    <!-- Image Tag -to insert a image into our web page -->
+     <img src="Mine.jpg" alt="APJ Abdul kalam">
+     <!-- in above 10th line we have img tag with src and alt. src-source of the image, alt-Alternate if that file missed by chance then show this alternate like which is missed  -->
+    <!-- <br> break give an empty line space and move to next line-->
+     <br><br>
+      <!-- now we are modify the img heigt and width of the above img-->
+      <img width="300px" height="450px" src="Mine.jpg" alt="APJ Abdul kalam">
+      <br><br><br><br>
+    
+      <!-- table tag-Table tag have some addional tags tr,td,th for create a row,column,heading of table -->
+     <table> <!--Table starts-->
+        <caption>Player Data</caption>  <!--like a heading of contant-->
+        <tr> <!--table row-->
+            <th>Name</th> <!--table heading-->
+            <th>Age</th>
+            <th>Place</th>
+        </tr>
+        <tr>
+            <td>Saana</td> <!--table data-->
+            <td>24</td>
+            <td>Thanjavur</td>
+        </tr>
+        <tr>
+            <td>Sai</td>
+            <td>22</td>
+            <td>Thiruvarur</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>19</td>
+            <td>Chennai</td>
+        </tr>
+     </table> <!--Table ends -->
+     <!-- in html table act by row wise only, rowspan and colspan tags also there to merge rows and columns  -->
+      <!-- Addionaly some other tags also available theade-it contains table head section, tbody- it contains table body content(td),  tfoot-it contains end of table data-->
+       <!-- i was add some CSS for create border to our table by using following style code -->
+
+     <!-- List -->
+      <!-- List are three types 1.ul-un ordered list, 2.ol- ordered list, 3.dl-defition list -->
+       <!-- un order list -->
+<ul>
+    <li>HTML5</li>    <!--li- list items-->
+    <li>CSS3</li>
+    <li>JavaScript</li>
+</ul>
+
+<!-- order list -->
+ <ol>
+    <li>GitHub</li>
+    <li>VS Code</li>
+    <li>Eclipse</li>
+ </ol>
+
+ <!-- definition list -->
+  <dl>
+    <dt>Web Developer:-</dt>  <!--definition term/name--> <!--dd- definition data-->
+    <dd>Who creates a web site,modify it and maintained the website they are Web Developers</dd>
+  </dl>
+
+
+
+     <style>
+        td{
+         border: 2px solid rgb(0, 0, 0);
+        }
+     </style>
+    </body>
+</html>
